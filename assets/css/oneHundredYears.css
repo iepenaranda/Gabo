@@ -54,8 +54,8 @@ body {
 }
 
 .descripcion {
-    background-color: rgba(2, 109, 28, 0.781);
-    color: white;
+    background-color: #FF3B85;
+    color: black;
     padding: 10px 100px 70px 100px;
     text-align: justify;
 }
@@ -71,19 +71,19 @@ body {
 }
 
 .historia {
-    background-color: rgba(242, 253, 86, 0.959);
-    color: black;
+    background-color: rgba(2, 109, 28, 0.781);
+    color: white;
     padding: 10px 100px 70px 100px;
-    text-align: justify;
+    text-align: center;
 }
 
 .historia h2 {
-    text-align: justify;
     font-size: 40px;
-    padding: 0 0 10px 0;
+    padding: 10px 0px;
 }
 
 .historia p {
+    text-align: justify;
     font-size: 25px;
 }
 
@@ -101,22 +101,27 @@ body {
 
 .venta {
     text-align: center;
-    padding-top: 10px;
-    padding-left: 50px;
+    padding: 10px 100px 0px 100px;
+    background-color: rgb(212, 214, 71);
 }
 
 .venta h2 {
     font-size: 40px;
+    padding: 10px 0px;
+}
+
+.venta p {
+    text-align: justify;
+    font-size: 25px;
 }
 
 .tiendas {
-    padding: 20px 460px;
+    padding: 20px 380px;
 }
 
 .tdTiendas {
     padding: 10px;
 }
-
 
 footer {
     background-color: rgba(0, 190, 0, 0.781);
